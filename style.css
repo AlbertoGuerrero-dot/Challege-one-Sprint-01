@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+*{
+    background: #242525;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    overflow-y: hidden;
+}
+
+.logo{
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 1em;
+}
+
+main{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.entrada{
+    margin-left: 1em;
+    width: 70%;
+}
+
+.area{
+    width: 80%;
+    height: 65;
+    border: none;
+    text-transform: lowercase;
+    resize: none;
+    color: #FFFFFF;
+    padding-top: 2px;
+}
+
+.informacion{
+    color: #656565;
+    font-size: 18px;
+}
+
+.mensaje{
+    width: 90%;
+    height: 70%;
+    border: none;
+    background: #656565;
+    background-image: url(img/muneco.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: bottom;
+    padding-top: 2px;
+    padding-left: 1em;
+    resize: none;
+}
+
+.botones, .copiar{
+    display: flex;
+}
+
+.btn-encriptar{
+    background: #0a3871;
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: #FFFFFF;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.btn-desencriptar{
+    background: #656565;
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: #0a3871;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    margin-left: 30px;
+}
+
+.area:focus, .mensaje:focus{
+    outline: none;
+}
+
+.salida{
+    margin-left: 1em;
+    width: 30%;
+}
+
+.btn-copiar{
+    background: #0a3871;
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: #FFFFFF;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.muneco{
+    background: #656565;
+    height: auto;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.caja{
+    border-radius: 20px;
+    background: #656565;
+    height: 100%;
+    width: 80%;
+}
+
+.copiar{
+    background: #656565;
+    padding-top: 3em;
+}
