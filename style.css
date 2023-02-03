@@ -5,7 +5,6 @@
     font-weight: 400;
     font-size: 32px;
     line-height: 150%;
-    overflow-y: hidden;
 }
 
 .logo{
@@ -40,7 +39,7 @@ main{
 }
 
 .mensaje{
-    width: 90%;
+    width: 80%;
     height: 70%;
     border: none;
     background: #656565;
@@ -51,6 +50,8 @@ main{
     padding-top: 2px;
     padding-left: 1em;
     resize: none;
+    margin-left: 2px;
+    border-radius: 25px;
 }
 
 .botones, .copiar{
@@ -100,15 +101,6 @@ main{
     margin-right: auto;
 }
 
-.muneco{
-    background: #656565;
-    height: auto;
-    width: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .caja{
     border-radius: 20px;
     background: #656565;
@@ -119,4 +111,52 @@ main{
 .copiar{
     background: #656565;
     padding-top: 3em;
+}
+
+@media screen and (max-width:480px){
+    .logo{
+        text-align: center;
+    }
+    
+    main{
+        display: block;
+
+    }
+
+    .entrada, .salida{
+        width: 80%;
+        height: 15em;
+    }
+
+    .informacion{
+        width: 80%;
+
+    }
+
+    .botones, .copiar{
+        height: 2em;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .btn-encriptar, .btn-desencriptar, .btn-copiar{
+        font-size: 15px;
+        height: 4em;
+        width: 8em;
+    }
+
+    .caja{
+        width: 100%;
+        height: 15em;
+
+    }
+
+    .area{
+        width: 90%;
+        height: 50%;
+    }
+
+    .mensaje{
+        height: 60%;
+    }
 }
